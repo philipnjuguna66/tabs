@@ -1,0 +1,31 @@
+{
+    "name": "appsorigin/filament-tabs",
+    "description": "Create filament tabs",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Appsorigin\\FilamentTabs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Philip Njuguna",
+            "email": "philip@lifelong.co.ke"
+        },
+        {
+            "name": "Moses Mwangi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "spatie/laravel-package-tools": "^1.13.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Appsorigin\\FilamentTabs\\TabsServiceProvider"
+            ]
+        }
+    }
+}
